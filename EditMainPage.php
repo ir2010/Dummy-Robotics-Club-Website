@@ -25,42 +25,7 @@ $query = $con->query("SELECT * FROM blog WHERE approved='1'");
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Robotics Club MNNIT</title>
-        <style>
-            body 
-            {
-                background-image: url("bg.jpg");
-	            background-size: cover;
-	            margin-top: 0;
-	            overflow-x: hidden;
-            }
-
-            h1 
-            {
-                text-align:center; 
-                color: black; 
-                font-family: 'Times New Roman';
-                font-size: 50px;
-                font-weight: bold;
-                text-shadow: 4px 1px gray;
-            }
-            .blog, .content
-            {
-                border: 1px solid #15365f;
-	            border-radius: 15px;
-	            text-align: left;
-	            
-	            padding-top: 10px;
-                padding-left: 8px;
-                padding-bottom: 20px;
-                padding-right: 8px;
-	            
-	            margin-top: 20px;
-	            
-	            line-height: 25px;
-            }
-
-           
-        </style>
+        <link rel="stylesheet" href="editmainpage_styles.css">
     </head>
     <body>
         <h1>Blogs</h1>
