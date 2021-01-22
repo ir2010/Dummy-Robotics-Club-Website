@@ -1,0 +1,19 @@
+<?php
+        if(!empty($msg)){ ?>
+        <script>
+        alert(<?php echo($msg); ?>);
+        </script>
+        <?php }?>
+
+
+        <?php 
+include_once 'blogSaveToDatabase.php';
+?>
+
+<?php
+                        else 
+                        { 
+                            echo "else";
+                            echo "<script>document.getElementById('bloglist').innerHTML = 'No Pending Blogs';</script>";
+                        }
+                        ?>
